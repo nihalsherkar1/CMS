@@ -1,0 +1,273 @@
+.background {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/pictures/back2.png");
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+}
+
+.background .nav-options {
+  display: flex;
+  justify-content: right;
+  padding: 2rem 6rem;
+  gap: 2rem;
+}
+
+.background .nav-options .btn {
+  cursor: pointer;
+  box-shadow: 0 0 0.3rem 0.2rem rgb(156, 136, 3);
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 80vh;
+  color: white;
+}
+
+.center-content .content-header h1 {
+  font-size: 3rem;
+  text-shadow: 0.2rem 0.2rem 0.4rem blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-content .content-header p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0.2rem 0.2rem 0.4rem blue;
+}
+
+.center-content .content-header button {
+  transition: 0.3s;
+}
+
+.center-content .content-header button:hover {
+  transform: scale(0.9);
+}
+
+/* Blog section */
+.blogs-section {
+  background-image: linear-gradient(
+    rgba(168, 167, 167, 0.7),
+    rgba(250, 250, 252, 0.7)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.blogs-section .heading {
+  color: white;
+  text-shadow: 0.2rem 0.2rem 0.4rem rgb(27, 227, 204);
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.blogs-section .heading h1 {
+  text-decoration: underline;
+}
+
+.blogs-section .top-blogs {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.blogs-section .top-blogs .blog {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(0.4rem);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+.blogs-section .top-blogs .blog {
+  transition: 0.3s;
+}
+.blogs-section .top-blogs .blog:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.4rem 0.3rem rgb(27, 227, 204);
+}
+
+.blogs-section .top-blogs .blog img {
+  border-radius: 1rem;
+}
+
+.blogs-section .top-blogs .blog h3 {
+  padding: 0.5rem 1rem 0 1rem;
+  text-align: center;
+}
+
+.blogs-section .top-blogs .blog .author {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.blogs-section .top-blogs .blog .date {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.blogs-section .top-blogs .blog p {
+  padding: 0 1rem 0 1rem;
+}
+
+.about {
+  background-color: gray;
+  height: 20rem;
+  display: flex;
+}
+
+.about .one {
+  width: 25%;
+  background-color: white;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about .one h1 {
+  color: rgb(0, 0, 0);
+}
+.about .one ul i {
+  color: white;
+}
+
+.about .one .myicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .two {
+  width: 75%;
+  background-color: white;
+  padding: 2rem 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about .two h3 {
+  color: rgb(0, 0, 0);
+}
+.about .two p {
+  color: rgb(3, 3, 3);
+}
+
+/* Footer
+
+*/
+
+.footer {
+  background-color: #122b40;
+}
+
+.footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+  padding-top: 2rem;
+}
+
+.footer .footer-container .logo {
+  margin-left: 1rem;
+}
+
+.footer .footer-container .box h3,
+.footer .footer-container .box p {
+  color: white;
+}
+.footer .footer-container .box .share a {
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin-left: 0.2rem;
+  background-color: #265073;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.footer .footer-container .box .share a:hover {
+  transform: scale(0.7);
+}
+
+.footer .footer-container .box .links {
+  display: block;
+  font-size: 1rem;
+  color: white;
+  padding: 0.4rem 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer .footer-container .box .links i {
+  padding-right: 0.5rem;
+  transition: 0.4s;
+}
+
+.footer .footer-container .box .links:hover i {
+  padding-right: 1.5rem;
+  transform: scale(0.7);
+}
+
+.footer .footer-container .newsletter .email {
+  height: 2.5rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  padding-left: 0.5rem;
+  text-decoration: none;
+}
+
+.footer .footer-container .newsletter .email:focus {
+  outline: none;
+  box-shadow: 0 0 0.4rem 0.3rem rgb(27, 227, 204);
+}
+
+.footer .footer-container .newsletter .btn {
+  transition: 0.3s;
+}
+.footer .footer-container .newsletter .btn:hover {
+  transform: scale(0.9);
+}
+
+.footer .credits {
+  color: white;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .background {
+    height: 50vh;
+  }
+  .background .nav-options {
+    padding: 1rem 2rem;
+    font-size: 0.6rem;
+  }
+  .background .nav-options a {
+    font-size: 0.6rem;
+  }
+}
