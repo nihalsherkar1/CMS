@@ -30,3 +30,28 @@ const showRePassword = () => {
     eye4.style.display = "block";
   }
 };
+
+function submitForm() {
+  var username = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+  // repassword: document.getElementById("repassword").value,
+  var imageInput = document.getElementById("image");
+
+  var formData = new FormData();
+  formData.append("name", username);
+  formData.append("email", email);
+  formData.append("password", password);
+  formData.append("repassword", repassword);
+  formData.append("image", imageInput.files[0]);
+
+  //HTTP request
+  fetch("http://localhost:8080/cms/usercontroller/add", {
+    method: "POST",
+    // headers: { "Content-Type": "multipart/form-data" },
+    body: formData,
+  })
+    .then((response) => response.json())
+    .then((data) => console.log("Success", data))
+    .catch((error) => console.log("Error", error));
+}

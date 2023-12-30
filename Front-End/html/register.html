@@ -17,66 +17,80 @@
     <link rel="stylesheet" href="/css/register.css" />
   </head>
   <body>
-    <div class="register-card">
-      <h1>REGISTER</h1>
-      <div class="box">
-        <i class="fa-solid fa-lg fa-user"></i>
-        <input
-          type="text"
-          class="input-box"
-          id="name"
-          placeholder="Enter Name"
-        />
-      </div>
+    <form
+      action="/add"
+      id="registerForm"
+      enctype="multipart/form-data"
+      method="post"
+    >
+      <div class="register-card">
+        <h1>REGISTER</h1>
+        <div class="box">
+          <i class="fa-solid fa-lg fa-user"></i>
+          <input
+            type="text"
+            class="input-box"
+            id="name"
+            placeholder="Enter Name"
+          />
+        </div>
 
-      <div class="box">
-        <i class="fa-solid fa-lg fa-envelope"></i>
-        <input
-          type="email"
-          class="input-box"
-          id="email"
-          placeholder="Enter Email Id"
-        />
-      </div>
+        <div class="box">
+          <i class="fa-solid fa-lg fa-envelope"></i>
+          <input
+            type="email"
+            class="input-box"
+            id="email"
+            placeholder="Enter Email Id"
+          />
+        </div>
 
-      <div class="box">
-        <i class="fa-solid fa-lg fa-key"></i>
-        <input
-          type="password"
-          class="input-box"
-          id="password"
-          placeholder="Enter Password"
-        />
-        <div class="icon-eye" onclick="showPassword()">
-          <i id="eye1" class="fa-regular fa-lg fa-eye icon"></i>
-          <i id="eye2" class="fa-regular fa-lg fa-eye-slash icon"></i>
+        <div class="box">
+          <i class="fa-solid fa-lg fa-key"></i>
+          <input
+            type="password"
+            class="input-box"
+            id="password"
+            placeholder="Enter Password"
+          />
+          <div class="icon-eye" onclick="showPassword()">
+            <i id="eye1" class="fa-regular fa-lg fa-eye icon"></i>
+            <i id="eye2" class="fa-regular fa-lg fa-eye-slash icon"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-lg fa-key"></i>
+          <input
+            type="password"
+            class="input-box"
+            id="repassword"
+            placeholder="Re-Enter Password"
+          />
+          <div class="icon-eye" onclick="showRePassword()">
+            <i id="eye3" class="fa-regular fa-lg fa-eye icon"></i>
+            <i id="eye4" class="fa-regular fa-lg fa-eye-slash icon"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-lg fa-image"></i>
+          <input type="file" class="input-box" id="image" accept="image/" />
+        </div>
+
+        <div class="register-btn">
+          <button class="btn btn-dark" type="button" onclick="submitForm()">
+            Register
+          </button>
+        </div>
+
+        <div class="login-link">
+          <a href="./login.html"
+            >Already have an account? <i class="fa fa-arrow-right"></i
+          ></a>
         </div>
       </div>
-
-      <div class="box">
-        <i class="fa-solid fa-lg fa-key"></i>
-        <input
-          type="password"
-          class="input-box"
-          id="re-password"
-          placeholder="Re-Enter Password"
-        />
-        <div class="icon-eye" onclick="showRePassword()">
-          <i id="eye3" class="fa-regular fa-lg fa-eye icon"></i>
-          <i id="eye4" class="fa-regular fa-lg fa-eye-slash icon"></i>
-        </div>
-      </div>
-
-      <div class="register-btn">
-        <button class="btn btn-dark">Register</button>
-      </div>
-
-      <div class="login-link">
-        <a href="./login.html"
-          >Already have an account? <i class="fa fa-arrow-right"></i
-        ></a>
-      </div>
-    </div>
+    </form>
 
     <script src="/javaScript/register.js"></script>
     <script

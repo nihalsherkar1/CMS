@@ -1,5 +1,6 @@
 package com.cms.entities;
 
+import java.sql.Blob;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
@@ -8,6 +9,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
 import lombok.Data;
 import lombok.Getter;
@@ -34,8 +36,11 @@ public class Users {
 	@Column(name = "password")
 	private String password;
 	
-	@Column(name = "image")
-	private String image;
+	@Column(name = "image",columnDefinition = "LONGBLOB")
+	@Lob
+	private byte[]  image;
+	
+	
 	
 	@OneToMany(cascade = CascadeType.ALL,mappedBy = "userId")
 	private List<Blogs> blog;
@@ -53,14 +58,73 @@ public class Users {
 
 
 
-	public Users(Long id, String name, String email, String password, String image) {
+	 
+
+
+
+	 
+
+
+
+
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public Users(Long id, String name, String email, String password, byte[] image, List<Blogs> blog,
+			List<Likes> like) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.password = password;
 		this.image = image;
+		this.blog = blog;
+		this.like = like;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -112,15 +176,90 @@ public class Users {
 
 
 
-	public String getImage() {
+	 
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public byte[] getImage() {
 		return image;
 	}
 
 
 
-	public void setImage(String image) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public void setImage(byte[] image) {
 		this.image = image;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

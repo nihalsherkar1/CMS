@@ -69,7 +69,12 @@
       </div>
     </div>
     <!-- ******************************************************** -->
-    <form action="" id="registerForm">
+    <form
+      id="loginForm"
+      method="post"
+      action="/index.html"
+      onsubmit="loginForm(event)"
+    >
       <div class="login-card">
         <h1>LOGIN</h1>
         <div class="box">
@@ -99,15 +104,11 @@
 
         <!-- Button -->
         <div class="check">
-          <input type="checkbox" id="checkme" value="" /><span
-            >Remember me</span
-          >
+          <input type="checkbox" id="checkme" /><span>Remember me</span>
         </div>
 
         <div class="login-btn">
-          <button class="btn btn-dark" onclick="login() " onsubmit=" ">
-            Login
-          </button>
+          <button class="btn btn-dark">Login</button>
         </div>
 
         <div class="register-link">
