@@ -60,7 +60,7 @@ const loginForm = async (event) => {
           .then((response) => {
             if (response.ok) {
               console.log("login successfull");
-              window.location.href = "/Front-End/html/blogs.html";
+              window.location.href = "blogs.html";
             } else if (response.status == 401) {
               displayNotification("Invalid Username or Password!!");
 
