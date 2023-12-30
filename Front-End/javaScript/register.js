@@ -45,13 +45,34 @@ function submitForm() {
   formData.append("repassword", repassword);
   formData.append("image", imageInput.files[0]);
 
-  //HTTP request
-  fetch("http://localhost:8080/cms/usercontroller/add", {
-    method: "POST",
-    // headers: { "Content-Type": "multipart/form-data" },
-    body: formData,
-  })
-    .then((response) => response.json())
-    .then((data) => console.log("Success", data))
-    .catch((error) => console.log("Error", error));
+  if (formData) {
+    try {
+      const response = fetch("http://localhost:8080/cms/usercontroller/add", {
+        method: "POST",
+        // headers: { "Content-Type": "multipart/form-data" },
+        body: formData,
+      })
+        .then((response) => {
+          if (response.status == 400) {
+            alert("All fields are required....");
+            return Promise.reject("All fields are required....");
+          } else if (response.ok) {
+            console.log("Registration Successfull");
+
+            setTimeout(() => {
+              window.location.reload();
+            }, 2000);
+          } else {
+            // Handle other HTTP status codes or unexpected situations
+            return Promise.reject("Unexpected response from server");
+          }
+        })
+        .then((data) => console.log("Success", data))
+        .catch((error) => console.log("Error", error));
+    } catch (error) {
+      alert("Registration failed. Please try again.");
+    }
+
+    //HTTP request
+  }
 }

@@ -1,5 +1,9 @@
 console.log("Login");
 
+// Import SweetAlert2
+// import Swal from "sweetalert2";
+// const Swal = require("sweetalert2");
+
 const showPassword = () => {
   var pass = document.getElementById("password");
   var eye1 = document.getElementById("eye1");
@@ -39,9 +43,6 @@ const loginForm = async (event) => {
     password: document.getElementById("password").value,
     checkme: document.getElementById("checkme").checked,
   };
-  // let email = document.getElementById("email").value;
-  // let password = document.getElementById("password").value;
-  // let checkme = document.getElementById("checkme");
 
   if (data.checkme) {
     console.log("we are in first if condition");
@@ -59,22 +60,42 @@ const loginForm = async (event) => {
             },
             body: JSON.stringify(data),
           }
-        );
+        )
+          .then((response) => {
+            if (response.ok) {
+              console.log("login successfull");
+              window.location.href = "/Front-End/index.html";
+            } else if (response.status == 401) {
+              displayNotification("Invalid Username or Password!!");
 
-        console.log(typeof response.json);
-
-        if (response.ok) {
-          console.log("Login successfull");
-
-          window.location.href = await "/index.html";
-        } else {
-          alert("Wrong password...Please Check");
-        }
+              // alert("Invalid Username or Password");
+            }
+          })
+          .catch((error) => console.log("Error", error));
       } catch (error) {
         console.error("Error during login", error);
       }
     }
   } else {
-    alert("You must accept the Terms & Conditions");
+    displayNotification("You must accept the Terms & Conditions..!!");
+    // alert("You must accept the Terms & Conditions");
   }
+
+  function displayNotification(msg) {
+    Swal.fire({
+      icon: "error",
+      title: msg,
+    });
+  }
+  // const forgetPassword = async () => {
+  //   const { value } = await Swal.fire({
+  //     title: "Forget Password",
+  //     input: "forgetPassword",
+  //     inputLabel: "Your password",
+  //     inputPlaceholder: "Enter your Password",
+  //   });
+  //   if (email) {
+  //     Swal.fire(`Entered email: ${forgetPassword}`);
+  //   }
+  // };
 };

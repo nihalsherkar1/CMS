@@ -39,7 +39,16 @@ public class UserController {
 		        user.setPassword(password);
 		        user.setImage(imageData);
 		        Users result = serviceImpl.addUser(user);
-			 return new ResponseEntity<>(result,HttpStatus.CREATED);
+		    System.out.println( result.getImage());
+		    
+		    if(result.getName() == null || result.getEmail()==null || result.getPassword()== null  ) {
+		    	   return new  ResponseEntity<>(result,HttpStatus.UNAUTHORIZED);
+		    }else {
+		   	 return new ResponseEntity<>(result,HttpStatus.CREATED);
+		    }
+		    
+		    
+		
 		 
 		} catch (Exception e) {
 			return new ResponseEntity<Users>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -67,16 +76,14 @@ public class UserController {
 	    try {
 	        String email = loginData.get("email");
 	        String password = loginData.get("password");
-
+             
 	        boolean isValidLogin = serviceImpl.validateLogin(email, password);
 
 	        boolean isPassword=serviceImpl.validatePassword(password);
 	        
-	        if(isPassword==true) {
-	        	return new ResponseEntity<>("Password check",HttpStatus.OK);
-	        }
+	       
 	        
-	        if (isValidLogin) {
+	        if (isValidLogin && isPassword) {
 	            return new ResponseEntity<>("Login Successful", HttpStatus.OK);
 	        } else {
 	            return new ResponseEntity<>("Invalid email or password", HttpStatus.UNAUTHORIZED);

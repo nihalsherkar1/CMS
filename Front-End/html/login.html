@@ -20,55 +20,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="/css/login.css" />
-    <script src="/javaScript/login.js"></script>
+    <link rel="stylesheet" href="/Front-End/css/login.css" />
+    <script src="/Front-End/javaScript/login.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <!-- *********************************************** -->
     <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">
-              Forget Password ?
-            </h5>
-            <button
-              type="button"
-              class="btn-close btn-close-white"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <!-- Modal Body write here -->
-            <input
-              type="email"
-              class="form-control"
-              id=""
-              placeholder="Enter your Register Email"
-            />
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              class="btn btn-warning"
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- ******************************************************** -->
+
+    <!-- ===================  Toast Start =========================== -->
+    <script>
+      const forgetPassword = async () => {
+        const { value } = await Swal.fire({
+          title: "Forget Password",
+          input: "password", // Corrected the input type
+          inputLabel: "Your password",
+          inputPlaceholder: "Enter your Password",
+        });
+        if (value) {
+          Swal.fire(`Entered password: ${value}`);
+        }
+      };
+    </script>
+    <!-- ===================  Toast End =========================== -->
+
     <form
       id="loginForm"
       method="post"
@@ -112,9 +90,7 @@
         </div>
 
         <div class="register-link">
-          <a data-bs-toggle="modal" data-bs-target="#exampleModal"
-            >Forgot Password?</a
-          >
+          <a onclick="forgetPassword()">Forgot Password?</a>
           <a href="./register.html"
             >I'm new here <i class="fa fa-arrow-right"></i
           ></a>
