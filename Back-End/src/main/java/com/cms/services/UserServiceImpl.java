@@ -1,5 +1,7 @@
 package com.cms.services;
 
+import java.sql.Blob;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +16,6 @@ public class UserServiceImpl implements UserServices {
 
 	@Override
 	public Users addUser(Users user) {
-		 
 		return userRepository.save(user);
 	}
 
@@ -28,4 +29,8 @@ public class UserServiceImpl implements UserServices {
 		return user !=null && user.getPassword().equals(password);
 	}
 	
+	public byte[] getUserImage(Long id) {
+		// Return an empty byte array if the image is null
+		return userRepository.findImageById(id) ;
+	}
 }

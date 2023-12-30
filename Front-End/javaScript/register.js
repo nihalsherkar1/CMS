@@ -54,7 +54,8 @@ function submitForm() {
       })
         .then((response) => {
           if (response.status == 400) {
-            alert("All fields are required....");
+            displayNotification("All fields are required....");
+            // alert("All fields are required....");
             return Promise.reject("All fields are required....");
           } else if (response.ok) {
             console.log("Registration Successfull");
@@ -70,7 +71,15 @@ function submitForm() {
         .then((data) => console.log("Success", data))
         .catch((error) => console.log("Error", error));
     } catch (error) {
-      alert("Registration failed. Please try again.");
+      displayNotification("Registration failed. Please try again.");
+      // alert("Registration failed. Please try again.");
+    }
+
+    function displayNotification(msg) {
+      Swal.fire({
+        icon: "error",
+        title: msg,
+      });
     }
 
     //HTTP request

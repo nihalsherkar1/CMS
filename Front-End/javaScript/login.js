@@ -1,9 +1,5 @@
 console.log("Login");
 
-// Import SweetAlert2
-// import Swal from "sweetalert2";
-// const Swal = require("sweetalert2");
-
 const showPassword = () => {
   var pass = document.getElementById("password");
   var eye1 = document.getElementById("eye1");
@@ -64,7 +60,7 @@ const loginForm = async (event) => {
           .then((response) => {
             if (response.ok) {
               console.log("login successfull");
-              window.location.href = "/Front-End/index.html";
+              window.location.href = "/Front-End/html/blogs.html";
             } else if (response.status == 401) {
               displayNotification("Invalid Username or Password!!");
 
@@ -78,7 +74,6 @@ const loginForm = async (event) => {
     }
   } else {
     displayNotification("You must accept the Terms & Conditions..!!");
-    // alert("You must accept the Terms & Conditions");
   }
 
   function displayNotification(msg) {
@@ -87,15 +82,4 @@ const loginForm = async (event) => {
       title: msg,
     });
   }
-  // const forgetPassword = async () => {
-  //   const { value } = await Swal.fire({
-  //     title: "Forget Password",
-  //     input: "forgetPassword",
-  //     inputLabel: "Your password",
-  //     inputPlaceholder: "Enter your Password",
-  //   });
-  //   if (email) {
-  //     Swal.fire(`Entered email: ${forgetPassword}`);
-  //   }
-  // };
 };

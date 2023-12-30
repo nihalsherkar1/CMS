@@ -1,11 +1,17 @@
 package com.cms.controller;
 
+ 
+import java.io.IOException;
+import java.sql.Blob;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -41,6 +47,10 @@ public class UserController {
 		        Users result = serviceImpl.addUser(user);
 		    System.out.println( result.getImage());
 		    
+
+		     
+		     
+		    
 		    if(result.getName() == null || result.getEmail()==null || result.getPassword()== null  ) {
 		    	   return new  ResponseEntity<>(result,HttpStatus.UNAUTHORIZED);
 		    }else {
@@ -56,6 +66,20 @@ public class UserController {
 		
 	}
 	
+	@GetMapping("/image/{id}")
+	public ResponseEntity<byte[]> getUserImage( @RequestParam  Long id ){
+//		    Here we get the image from database 
+		     byte[] myImage=serviceImpl.getUserImage(id);
+		     HttpHeaders headers=new HttpHeaders();
+		     headers.setContentType(MediaType.IMAGE_JPEG);
+		     headers.setContentType(MediaType.IMAGE_PNG);
+		     
+		     return new ResponseEntity<>(myImage,headers,HttpStatus.OK);
+		     
+		}  
+		
+	     
+ 
 	
 //	@PostMapping("/login")
 //	public ResponseEntity<String>loginUser(@RequestParam("email")String email, @RequestParam("password")String password){

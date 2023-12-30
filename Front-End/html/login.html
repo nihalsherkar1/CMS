@@ -26,18 +26,13 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
-    <!-- *********************************************** -->
-    <!-- Modal -->
-
-    <!-- ******************************************************** -->
-
     <!-- ===================  Toast Start =========================== -->
     <script>
       const forgetPassword = async () => {
         const { value } = await Swal.fire({
-          title: "Forget Password",
+          title: "Forget Password ?",
           input: "password", // Corrected the input type
-          inputLabel: "Your password",
+
           inputPlaceholder: "Enter your Password",
         });
         if (value) {
