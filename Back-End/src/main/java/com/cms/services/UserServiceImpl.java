@@ -1,10 +1,12 @@
 package com.cms.services;
 
-import java.sql.Blob;
+ 
+
+import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.cms.entities.Users;
 import com.cms.repository.UserRepository;
 
@@ -28,9 +30,51 @@ public class UserServiceImpl implements UserServices {
 		Users user=userRepository.findByPassword(password);
 		return user !=null && user.getPassword().equals(password);
 	}
-	
-	public byte[] getUserImage(Long id) {
-		// Return an empty byte array if the image is null
-		return userRepository.findImageById(id) ;
+
+	//Read 
+	@Override
+	public List<Users> fetchUsers() {	 
+		return userRepository.findAll();
 	}
+
+	
+	@Override
+	public Optional<Users> getUserById(Long id) {
+		return  userRepository.findById(id);
+	}
+
+	//update
+	@Override
+	public Users updateUser(Users users, Long id) {
+		 Users userDb=userRepository.findById(id).get();
+		 
+		 if(userDb != null) {
+			  userDb.setId(users.getId());
+			  userDb.setName(users.getName());
+			  userDb.setEmail(users.getEmail());
+			  userDb.setPassword(users.getPassword());
+			  userDb.setImage(users.getImage());
+			  userDb.setBlog(users.getBlog());
+			  userDb.setLike(users.getLike());
+			  
+		 } 
+		return userRepository.save(userDb);
+	}
+
+	//Delete
+	@Override
+	public void deleteUserById(Long id) {
+	 
+		  userRepository.deleteById(id);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	 
 }
