@@ -7,21 +7,20 @@ import com.cms.dao.UserDao;
 import com.cms.models.User;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class LogInServiceImpl implements LogInService {
 	
+//	Dao -> Repository
 	@Autowired
 	private UserDao udao;
-
+	
 	@Override
-	public String registerUser(User user) {
+	public String validateEmail(String email) {
 		
-		try {
-			user.setRole("ROLE_USER");
-			udao.save(user);
-			return "Usre registered successfully";
-		}catch(Exception e){
-			return "Something went wrong";
-		}
+		User user = udao.findByEmail(email);
+		
+		if(user != null)
+			return "User Found";
+		else
+			return "User Not Found";
 	}
-
 }

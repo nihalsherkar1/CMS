@@ -16,12 +16,15 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"
   ></script>
-  <link rel="stylesheet" href="/Front-End/css/blogs.css">
-  <script src="/Front-End/javaScript/blog.js" ></script>
+  <link rel="stylesheet" href="/css/blogs.css">
+  <script src="/javaScript/blog.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   
+
   </head>
   <body>
     <div class="blog-container">
-      <form action="" class="form-box"  onsubmit="blogData(event)"  >
+      <form   class="form-box"  method="post"         >
          <h3>BLOG</h3>
 
         <label for="title">Title : </label>
@@ -40,7 +43,7 @@
         <div class="time-drop">
           <div class="timecls">
             <label for="time" class=""> Time :</label>
-            <input class="timeInput" id="time" type="time" />
+            <input class="timeInput" name="updatedTimestamp" id="updatedTimestamp" type="datetime-local" />
           </div>
           
           <div class="mydropdown" >
@@ -61,9 +64,10 @@
           rows="5"
           placeholder="Enter Your Content"
         /></textarea>
+       
       <!-- Button Start -->
           <div class="btn-box">
-            <button  type="submit"  class=" btn btn-dark mybtn"    >Submit</button>
+            <button  type="button"  class=" btn btn-dark mybtn"  onclick="blogData()"   >Submit</button>
           </div>
         
         

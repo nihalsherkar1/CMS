@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/Front-End/pictures/back3.jpg");
+  background-image: url("/pictures/back3.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -112,4 +112,31 @@ body {
   transform: scale(1.1);
   text-shadow: 0.2rem 0.2rem 0.4rem rgb(27, 227, 204);
   color: white;
+}
+
+/* Toast CSS Start */
+#toast {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 0.5rem;
+  display: none;
+}
+.show {
+  display: block;
+  animation: fadeInOut 3s ease-out;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
 }

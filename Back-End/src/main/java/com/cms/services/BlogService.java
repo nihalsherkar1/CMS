@@ -1,15 +1,16 @@
 package com.cms.services;
 
- 
+import java.util.List;
 
-import com.cms.entities.Blogs;
- 
- 
- 
+import com.cms.dto.BlogDto;
+import com.cms.models.Blog;
+
 
 public interface BlogService {
-
-	//save blog
-	public Blogs addBlog(Blogs blogs );
-
+	
+	/*  Method to save blog in database    */
+	public String saveBlog(BlogDto blog);
+	
+	/*  Show no of blogs */
+	public List<Blog> showBlogs();
 }
