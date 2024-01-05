@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlogSphere</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/profile.css" />
+  </head>
+  <body onload="getData()">
+    <!-- =========Side Navbar Start============= -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </div>
+        <div class="mt-3">
+          <a href="/" class="btn btn-dark">Home</a>
+        </div>
+        <div class="mt-3">
+          <a href="/html/blogs.html" class="btn btn-dark">Blogs</a>
+        </div>
+        <div class="mt-3">
+          <a href="/html/profile.html" class="btn btn-dark">Profile</a>
+        </div>
+        <div class="dropdown mt-3">
+          <button
+            class="btn btn-dark dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <div class="mt-3">
+          <button class="btn btn-dark" onclick="logout()">Logout</button>
+        </div>
+      </div>
+    </div>
+    <!-- =========Side Navbar End============= -->
+
+    <!-- ======== Update Name Start=============== -->
+    <div
+      class="modal fade"
+      id="nameModal"
+      tabindex="-1"
+      aria-labelledby="eamilModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="nameModalLabel">Update Name</h1>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <input type="text" class="form-control" id="name-box" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning"
+              onclick="updateName()"
+              data-bs-toggle="modal"
+              data-bs-target="#nameModal"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======== Update Name End=============== -->
+
+    <!-- =======Update Email Start =============== -->
+    <div
+      class="modal fade"
+      id="emailModal"
+      tabindex="-1"
+      aria-labelledby="emailModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="emailModalLabel">
+              Update Email Id
+            </h1>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <input
+              type="email"
+              class="form-control"
+              id="email-box"
+              value="new email id"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning"
+              onclick="updateEmail()"
+              data-bs-toggle="modal"
+              data-bs-target="#emailModal"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =======Update Email End =============== -->
+
+    <!-- =======Update Password Start =============== -->
+    <div
+      class="modal fade"
+      id="passwordModal"
+      tabindex="-1"
+      aria-labelledby="passwordModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="passwordModalLabel">
+              Update Password
+            </h1>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="old-pass">
+              <input
+                type="password"
+                class="form-control"
+                id="old-pass-box"
+                value=""
+                placeholder="old password"
+              />
+              <div class="icon-eye" onclick="showOldPassword()">
+                <i id="eye1" class="fa fa-eye icon"></i>
+                <i id="eye2" class="fa fa-eye-slash icon"></i>
+              </div>
+            </div>
+            <div class="new-pass">
+              <input
+                type="password"
+                class="form-control"
+                id="new-pass-box"
+                value=""
+                placeholder="new password"
+              />
+              <div class="icon-eye" onclick="showNewPassword()">
+                <i id="eye3" class="fa fa-eye icon"></i>
+                <i id="eye4" class="fa fa-eye-slash icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning"
+              onclick="updatePassword()"
+              data-bs-toggle="modal"
+              data-bs-target="#passwordModal"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==========Update Password End============== -->
+
+    <!-- ==========Popup Start============== -->
+    <div class="popup" id="toast"></div>
+    <!-- ==========Popup End ============== -->
+
+    <div class="profile">
+      <div class="profile-menu" id="profile-menu">
+        <i
+          class="fa-solid fa-bars"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+        ></i>
+      </div>
+      <div class="top-section">
+        <div class="profile-card">
+          <div class="profile-pic">
+            <img id="profile-image" src="/pictures/profile.png" alt="" />
+            <div class="buttons">
+              <input
+                type="file"
+                class="btn btn-warning form-control select"
+                id="file-input"
+                accept="image/*"
+                onchange="previewImage()"
+              />
+              <button class="btn btn-warning upload" id="upload-btn">
+                Upload
+              </button>
+            </div>
+          </div>
+
+          <div class="profile-info">
+            <div class="box">
+              <h3 class="title">Name</h3>
+              <h3 class="value" id="name">: Ram Charan</h3>
+              <i
+                class="fa-solid fa-pen"
+                data-bs-toggle="modal"
+                data-bs-target="#nameModal"
+              ></i>
+            </div>
+            <div class="box">
+              <h3 class="title">Email id</h3>
+              <h3 class="value" id="email">: ramcharan@gmail.com</h3>
+              <i
+                class="fa-solid fa-pen"
+                data-bs-toggle="modal"
+                data-bs-target="#emailModal"
+              ></i>
+            </div>
+            <div class="box">
+              <h3 class="title">Password</h3>
+              <h3 class="value">: ✶✶✶✶✶✶✶✶✶</h3>
+              <i
+                class="fa-solid fa-pen"
+                data-bs-toggle="modal"
+                data-bs-target="#passwordModal"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer STart -->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="box logo">
+          <h3>BlogSphere Brilliance</h3>
+          <p>Unveiling the Power of Words</p>
+
+          <div class="share">
+            <a class="fab fa-facebook-f"></a>
+            <a class="fab fa-twitter"></a>
+            <a class="fab fa-instagram"></a>
+            <a class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact</h3>
+          <a class="links"><i class="fas fa-phone"></i> +123-456-789</a>
+          <a class="links"><i class="fas fa-phone"></i> +111-222-333</a>
+          <a class="links"><i class="fas fa-envelope"></i> sample@gmail.com</a>
+          <a class="links"
+            ><i class="fas fa-map-marker-alt"></i> Hinjawadi, Pune, India</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a class="links"><i class="fa-solid fa-arrow-right"></i>Home</a>
+          <a class="links"><i class="fa-solid fa-arrow-right"></i>Dashboard</a>
+          <a href="../html/about.html" class="links"
+            ><i class="fa-solid fa-arrow-right"></i>About Us</a
+          >
+          <a href="../html/contact.html" class="links"
+            ><i class="fa-solid fa-arrow-right"></i>Contact Us</a
+          >
+        </div>
+
+        <div class="box newsletter">
+          <h3>Newsletter</h3>
+          <p>Subscribe for latest updates</p>
+          <input
+            type="email"
+            id="email"
+            class="email"
+            placeholder="your email id"
+          />
+          <div onclick="subscribe()">
+            <input type="submit" value="subscribe" class="btn btn-info" />
+          </div>
+        </div>
+      </div>
+
+      <div class="credits">BlogSphere @ 2023 | All Rights Reserved</div>
+    </div>
+    <!-- Footer End -->
+
+    <script src="../javascript/profile.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

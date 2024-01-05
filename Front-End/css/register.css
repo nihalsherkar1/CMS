@@ -140,3 +140,29 @@ body {
     opacity: 1;
   }
 }
+
+/*  */
+.register-card .password-error {
+  color: rgb(255, 0, 0);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  left: -35px;
+  content: "✔";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  left: -35px;
+  content: "✖";
+}
