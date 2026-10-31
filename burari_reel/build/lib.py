@@ -20,7 +20,7 @@ def setup(dur, res_pct=50, samples=8):
     s.view_settings.view_transform = 'AgX'; s.view_settings.look = 'AgX - Medium High Contrast'
     w = bpy.data.worlds.new('W'); s.world = w; w.use_nodes = True
     bg = w.node_tree.nodes['Background']; bg.inputs[0].default_value = (0.006, 0.007, 0.012, 1); bg.inputs[1].default_value = 1
-    FONT = bpy.data.fonts.load('/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf')
+    import os; FONT = bpy.data.fonts.load(os.environ.get('BURARI_FONT', '/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf'))
     # compositor bloom
     s.render.compositor_device = 'CPU'
     ng = bpy.data.node_groups.new('Comp', 'CompositorNodeTree'); s.compositing_node_group = ng
@@ -194,19 +194,20 @@ def hinge_door(hloc, w, h, m, open_deg=0):
 
 def run(build, shots, outdir):
     import sys, os
-    mode = sys.argv[1] if len(sys.argv) > 1 else 'stills'
+    argv = sys.argv[sys.argv.index('--'):] if '--' in sys.argv else sys.argv  # blender -b --python x.py -- args
+    mode = argv[1] if len(argv) > 1 else 'stills'
     s = build()
     os.makedirs(outdir, exist_ok=True)
     if mode == 'save':
         bpy.ops.wm.save_as_mainfile(filepath=outdir + '/scene.blend'); return
     if mode == 'stills':
         bpy.ops.wm.save_as_mainfile(filepath=outdir + '/scene.blend')
-        which = [int(x) for x in sys.argv[2].split(',')] if len(sys.argv) > 2 else range(len(shots))
+        which = [int(x) for x in argv[2].split(',')] if len(argv) > 2 else range(len(shots))
         for i in which:
             t = shots[i][2] if len(shots[i]) > 2 else (shots[i][0] + shots[i][1]) / 2
             s.frame_set(F(t)); s.render.filepath = f'{outdir}/still_{i+1:02d}.png'
             bpy.ops.render.render(write_still=True); print('STILL', i+1, F(t), flush=True)
     if mode == 'anim':
-        s.frame_start = int(sys.argv[2]); s.frame_end = min(int(sys.argv[3]), s.frame_end)
+        s.frame_start = int(argv[2]); s.frame_end = min(int(argv[3]), s.frame_end)
         s.render.filepath = outdir + '/frames/'; s.render.use_overwrite = False; s.render.use_placeholder = True
         bpy.ops.render.render(animation=True)

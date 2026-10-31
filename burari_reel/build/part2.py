@@ -1,4 +1,5 @@
-import sys, math, random; sys.path.insert(0, '/tmp/work/build')
+import sys, os, math, random; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+WORK = os.environ.get('BURARI_WORK', '/tmp/work')
 from lib import *
 DUR = 84.384
 SHOTS = [(0.0, 6.79, 3.0), (6.79, 18.90, 17.5), (18.90, 23.35, 22.5), (23.35, 30.27, 28.5),
@@ -159,4 +160,4 @@ def build():
     for f in (s1, s2, s3, s4, s5, s6, s7, s8): f()
     return s
 if __name__ == '__main__':
-    run(build, SHOTS, '/tmp/work/p2')
+    run(build, SHOTS, WORK + '/p2')
