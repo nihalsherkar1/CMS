@@ -1,0 +1,246 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Inter Display Black,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,5,80,80,0,1
+Style: Lab,Inter Display Black,90,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,6,4,8,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:00.17,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Yeh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}sab \h{\c&H00FFFFFF&}shuru \h{\c&H00FFFFFF&}hua
+Dialogue: 1,0:00:00.17,0:00:00.41,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Yeh \h{\c&H004AE2FF&\fscx112\fscy112}sab{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}shuru \h{\c&H00FFFFFF&}hua
+Dialogue: 1,0:00:00.41,0:00:00.81,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Yeh \h{\c&H00FFFFFF&}sab \h{\c&H004AE2FF&\fscx112\fscy112}shuru{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hua
+Dialogue: 1,0:00:00.81,0:00:01.10,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Yeh \h{\c&H00FFFFFF&}sab \h{\c&H00FFFFFF&}shuru \h{\c&H004AE2FF&\fscx112\fscy112}hua{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:01.10,0:00:01.27,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}do{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}hazaar \h{\c&H00008AFF&}saat \h{\c&H00FFFFFF&}mein
+Dialogue: 1,0:00:01.27,0:00:01.68,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}do \h{\c&H00008AFF&\fscx112\fscy112}hazaar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}saat \h{\c&H00FFFFFF&}mein
+Dialogue: 1,0:00:01.68,0:00:01.97,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}do \h{\c&H00008AFF&}hazaar \h{\c&H00008AFF&\fscx112\fscy112}saat{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}mein
+Dialogue: 1,0:00:01.97,0:00:02.80,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}do \h{\c&H00008AFF&}hazaar \h{\c&H00008AFF&}saat \h{\c&H004AE2FF&\fscx112\fscy112}mein{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:02.80,0:00:03.02,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}jab{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}mukhiya
+Dialogue: 1,0:00:03.02,0:00:03.50,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jab \h{\c&H004AE2FF&\fscx112\fscy112}parivaar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}mukhiya
+Dialogue: 1,0:00:03.50,0:00:03.67,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jab \h{\c&H00FFFFFF&}parivaar \h{\c&H004AE2FF&\fscx112\fscy112}ke{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}mukhiya
+Dialogue: 1,0:00:03.67,0:00:04.60,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jab \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}ke \h{\c&H004AE2FF&\fscx112\fscy112}mukhiya{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:04.60,0:00:04.95,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H00008AFF&\fscx112\fscy112}Lalit{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}pita
+Dialogue: 1,0:00:04.95,0:00:05.12,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}Lalit \h{\c&H004AE2FF&\fscx112\fscy112}ke{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}pita
+Dialogue: 1,0:00:05.12,0:00:05.48,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}Lalit \h{\c&H00FFFFFF&}ke \h{\c&H004AE2FF&\fscx112\fscy112}pita{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:05.48,0:00:05.83,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}guzar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}gaye
+Dialogue: 1,0:00:05.83,0:00:06.67,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}guzar \h{\c&H004AE2FF&\fscx112\fscy112}gaye{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:06.79,0:00:07.09,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Uske{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}baad \h{\c&H00008AFF&}Lalit \h{\c&H00FFFFFF&}ne
+Dialogue: 1,0:00:07.09,0:00:07.34,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Uske \h{\c&H004AE2FF&\fscx112\fscy112}baad{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}Lalit \h{\c&H00FFFFFF&}ne
+Dialogue: 1,0:00:07.34,0:00:07.64,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Uske \h{\c&H00FFFFFF&}baad \h{\c&H00008AFF&\fscx112\fscy112}Lalit{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ne
+Dialogue: 1,0:00:07.64,0:00:07.79,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Uske \h{\c&H00FFFFFF&}baad \h{\c&H00008AFF&}Lalit \h{\c&H004AE2FF&\fscx112\fscy112}ne{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:07.79,0:00:08.13,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}daava{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kiya \h{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}pita
+Dialogue: 1,0:00:08.13,0:00:08.43,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}daava \h{\c&H004AE2FF&\fscx112\fscy112}kiya{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}pita
+Dialogue: 1,0:00:08.43,0:00:08.58,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}daava \h{\c&H00FFFFFF&}kiya \h{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}pita
+Dialogue: 1,0:00:08.58,0:00:08.88,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}daava \h{\c&H00FFFFFF&}kiya \h{\c&H00FFFFFF&}ki \h{\c&H004AE2FF&\fscx112\fscy112}pita{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:08.88,0:00:09.08,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}aatma \h{\c&H00FFFFFF&}usmein \h{\c&H00FFFFFF&}aati
+Dialogue: 1,0:00:09.08,0:00:09.42,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H00008AFF&\fscx112\fscy112}aatma{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}usmein \h{\c&H00FFFFFF&}aati
+Dialogue: 1,0:00:09.42,0:00:09.77,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H00008AFF&}aatma \h{\c&H004AE2FF&\fscx112\fscy112}usmein{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aati
+Dialogue: 1,0:00:09.77,0:00:10.07,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H00008AFF&}aatma \h{\c&H00FFFFFF&}usmein \h{\c&H004AE2FF&\fscx112\fscy112}aati{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:10.07,0:00:10.27,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}hai{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aur \h{\c&H00FFFFFF&}usse \h{\c&H00FFFFFF&}baat
+Dialogue: 1,0:00:10.27,0:00:10.88,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hai \h{\c&H004AE2FF&\fscx112\fscy112}aur{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}usse \h{\c&H00FFFFFF&}baat
+Dialogue: 1,0:00:10.88,0:00:11.20,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hai \h{\c&H00FFFFFF&}aur \h{\c&H004AE2FF&\fscx112\fscy112}usse{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}baat
+Dialogue: 1,0:00:11.20,0:00:11.46,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hai \h{\c&H00FFFFFF&}aur \h{\c&H00FFFFFF&}usse \h{\c&H004AE2FF&\fscx112\fscy112}baat{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:11.46,0:00:11.88,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}karti{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:00:11.88,0:00:12.69,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}karti \h{\c&H004AE2FF&\fscx112\fscy112}hai{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:12.73,0:00:13.03,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Wahi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}aadesh \h{\c&H00FFFFFF&}deti \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:00:13.03,0:00:13.39,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Wahi \h{\c&H00008AFF&\fscx112\fscy112}aadesh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}deti \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:00:13.39,0:00:13.69,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Wahi \h{\c&H00008AFF&}aadesh \h{\c&H004AE2FF&\fscx112\fscy112}deti{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:00:13.69,0:00:14.49,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Wahi \h{\c&H00008AFF&}aadesh \h{\c&H00FFFFFF&}deti \h{\c&H004AE2FF&\fscx112\fscy112}hai{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:14.50,0:00:14.72,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Aur{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}dheere-dheere
+Dialogue: 1,0:00:14.72,0:00:15.91,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aur \h{\c&H004AE2FF&\fscx112\fscy112}dheere-dheere{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:15.91,0:00:16.30,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}poora{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}woh \h{\c&H00008AFF&}aadesh
+Dialogue: 1,0:00:16.30,0:00:16.79,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}poora \h{\c&H004AE2FF&\fscx112\fscy112}parivaar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}woh \h{\c&H00008AFF&}aadesh
+Dialogue: 1,0:00:16.79,0:00:16.96,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}poora \h{\c&H00FFFFFF&}parivaar \h{\c&H004AE2FF&\fscx112\fscy112}woh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}aadesh
+Dialogue: 1,0:00:16.96,0:00:17.34,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}poora \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}woh \h{\c&H00008AFF&\fscx112\fscy112}aadesh{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:17.34,0:00:17.78,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}maanne{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}laga
+Dialogue: 1,0:00:17.78,0:00:18.71,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}maanne \h{\c&H004AE2FF&\fscx112\fscy112}laga{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:18.90,0:00:19.27,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Dukaan{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}chali
+Dialogue: 1,0:00:19.27,0:00:20.02,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Dukaan \h{\c&H004AE2FF&\fscx112\fscy112}chali{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:20.02,0:00:20.37,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Paisa{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aaya
+Dialogue: 1,0:00:20.37,0:00:21.28,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Paisa \h{\c&H004AE2FF&\fscx112\fscy112}aaya{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:21.42,0:00:21.79,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H00008AFF&\fscx112\fscy112}Yaqeen{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aur \h{\c&H00FFFFFF&}gehra \h{\c&H00FFFFFF&}hua
+Dialogue: 1,0:00:21.79,0:00:22.00,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}Yaqeen \h{\c&H004AE2FF&\fscx112\fscy112}aur{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}gehra \h{\c&H00FFFFFF&}hua
+Dialogue: 1,0:00:22.00,0:00:22.42,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}Yaqeen \h{\c&H00FFFFFF&}aur \h{\c&H004AE2FF&\fscx112\fscy112}gehra{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hua
+Dialogue: 1,0:00:22.42,0:00:23.29,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}Yaqeen \h{\c&H00FFFFFF&}aur \h{\c&H00FFFFFF&}gehra \h{\c&H004AE2FF&\fscx112\fscy112}hua{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:23.35,0:00:23.58,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Phir{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aakhri \h{\c&H00008AFF&}aadesh \h{\c&H00FFFFFF&}aaya
+Dialogue: 1,0:00:23.58,0:00:24.00,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Phir \h{\c&H004AE2FF&\fscx112\fscy112}aakhri{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}aadesh \h{\c&H00FFFFFF&}aaya
+Dialogue: 1,0:00:24.00,0:00:24.32,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Phir \h{\c&H00FFFFFF&}aakhri \h{\c&H00008AFF&\fscx112\fscy112}aadesh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aaya
+Dialogue: 1,0:00:24.32,0:00:25.10,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Phir \h{\c&H00FFFFFF&}aakhri \h{\c&H00008AFF&}aadesh \h{\c&H004AE2FF&\fscx112\fscy112}aaya{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:25.10,0:00:25.54,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H00008AFF&\fscx112\fscy112}bargad{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ki \h{\c&H00008AFF&}tapasya
+Dialogue: 1,0:00:25.54,0:00:25.75,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}bargad \h{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}tapasya
+Dialogue: 1,0:00:25.75,0:00:26.85,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}bargad \h{\c&H00FFFFFF&}ki \h{\c&H00008AFF&\fscx112\fscy112}tapasya{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:26.98,0:00:27.42,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H00008AFF&\fscx112\fscy112}bargad{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}jataon \h{\c&H00FFFFFF&}ki
+Dialogue: 1,0:00:27.42,0:00:27.64,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}bargad \h{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}jataon \h{\c&H00FFFFFF&}ki
+Dialogue: 1,0:00:27.64,0:00:28.13,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}bargad \h{\c&H00FFFFFF&}ki \h{\c&H004AE2FF&\fscx112\fscy112}jataon{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ki
+Dialogue: 1,0:00:28.13,0:00:28.34,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}bargad \h{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}jataon \h{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:28.34,0:00:29.14,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}tarah{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}latakna
+Dialogue: 1,0:00:29.14,0:00:30.27,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}tarah \h{\c&H004AE2FF&\fscx112\fscy112}latakna{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:30.27,0:00:30.61,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Delhi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}police \h{\c&H00FFFFFF&}aur \h{\c&H00FFFFFF&}CBI
+Dialogue: 1,0:00:30.61,0:00:30.91,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Delhi \h{\c&H004AE2FF&\fscx112\fscy112}police{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aur \h{\c&H00FFFFFF&}CBI
+Dialogue: 1,0:00:30.91,0:00:31.10,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Delhi \h{\c&H00FFFFFF&}police \h{\c&H004AE2FF&\fscx112\fscy112}aur{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}CBI
+Dialogue: 1,0:00:31.10,0:00:31.59,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Delhi \h{\c&H00FFFFFF&}police \h{\c&H00FFFFFF&}aur \h{\c&H004AE2FF&\fscx112\fscy112}CBI{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:31.59,0:00:31.79,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}psychological \h{\c&H00FFFFFF&}autopsy
+Dialogue: 1,0:00:31.79,0:00:32.47,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H004AE2FF&\fscx112\fscy112}psychological{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}autopsy
+Dialogue: 1,0:00:32.47,0:00:33.30,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}psychological \h{\c&H004AE2FF&\fscx112\fscy112}autopsy{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:33.30,0:00:33.44,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ne{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ise \h{\c&H00008AFF&}shared \h{\c&H00008AFF&}psychosis
+Dialogue: 1,0:00:33.44,0:00:33.64,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ne \h{\c&H004AE2FF&\fscx112\fscy112}ise{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}shared \h{\c&H00008AFF&}psychosis
+Dialogue: 1,0:00:33.64,0:00:34.13,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ne \h{\c&H00FFFFFF&}ise \h{\c&H00008AFF&\fscx112\fscy112}shared{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}psychosis
+Dialogue: 1,0:00:34.13,0:00:34.62,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ne \h{\c&H00FFFFFF&}ise \h{\c&H00008AFF&}shared \h{\c&H00008AFF&\fscx112\fscy112}psychosis{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:34.62,0:00:35.51,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}kaha{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:35.83,0:00:36.09,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}jab{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ek \h{\c&H00FFFFFF&}insaan \h{\c&H00FFFFFF&}ka
+Dialogue: 1,0:00:36.09,0:00:36.28,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jab \h{\c&H004AE2FF&\fscx112\fscy112}ek{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}insaan \h{\c&H00FFFFFF&}ka
+Dialogue: 1,0:00:36.28,0:00:36.74,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jab \h{\c&H00FFFFFF&}ek \h{\c&H004AE2FF&\fscx112\fscy112}insaan{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ka
+Dialogue: 1,0:00:36.74,0:00:36.99,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jab \h{\c&H00FFFFFF&}ek \h{\c&H00FFFFFF&}insaan \h{\c&H004AE2FF&\fscx112\fscy112}ka{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:36.99,0:00:37.97,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H00008AFF&\fscx112\fscy112}bhram{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:37.97,0:00:38.28,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}poore{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}ka \h{\c&H00FFFFFF&}sach
+Dialogue: 1,0:00:38.28,0:00:38.73,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}poore \h{\c&H004AE2FF&\fscx112\fscy112}parivaar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ka \h{\c&H00FFFFFF&}sach
+Dialogue: 1,0:00:38.73,0:00:38.94,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}poore \h{\c&H00FFFFFF&}parivaar \h{\c&H004AE2FF&\fscx112\fscy112}ka{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}sach
+Dialogue: 1,0:00:38.94,0:00:39.14,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}poore \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}ka \h{\c&H004AE2FF&\fscx112\fscy112}sach{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:39.14,0:00:39.34,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ban{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}jaata \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:00:39.34,0:00:39.70,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ban \h{\c&H004AE2FF&\fscx112\fscy112}jaata{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:00:39.70,0:00:40.50,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ban \h{\c&H00FFFFFF&}jaata \h{\c&H004AE2FF&\fscx112\fscy112}hai{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:40.64,0:00:41.18,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}CBI{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ne \h{\c&H00FFFFFF&}ise \h{\c&H00FFFFFF&}aatmahatya
+Dialogue: 1,0:00:41.18,0:00:41.34,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}CBI \h{\c&H004AE2FF&\fscx112\fscy112}ne{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ise \h{\c&H00FFFFFF&}aatmahatya
+Dialogue: 1,0:00:41.34,0:00:41.55,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}CBI \h{\c&H00FFFFFF&}ne \h{\c&H004AE2FF&\fscx112\fscy112}ise{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aatmahatya
+Dialogue: 1,0:00:41.55,0:00:42.20,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}CBI \h{\c&H00FFFFFF&}ne \h{\c&H00FFFFFF&}ise \h{\c&H004AE2FF&\fscx112\fscy112}aatmahatya{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:42.20,0:00:43.01,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}nahin{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:43.01,0:00:43.15,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ek{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ritual \h{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}dauraan
+Dialogue: 1,0:00:43.15,0:00:43.50,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ek \h{\c&H004AE2FF&\fscx112\fscy112}ritual{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}dauraan
+Dialogue: 1,0:00:43.50,0:00:43.64,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ek \h{\c&H00FFFFFF&}ritual \h{\c&H004AE2FF&\fscx112\fscy112}ke{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}dauraan
+Dialogue: 1,0:00:43.64,0:00:44.03,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ek \h{\c&H00FFFFFF&}ritual \h{\c&H00FFFFFF&}ke \h{\c&H004AE2FF&\fscx112\fscy112}dauraan{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:44.03,0:00:44.28,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}hua{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}haadsa \h{\c&H00FFFFFF&}bataaya
+Dialogue: 1,0:00:44.28,0:00:44.72,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hua \h{\c&H00008AFF&\fscx112\fscy112}haadsa{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}bataaya
+Dialogue: 1,0:00:44.72,0:00:45.76,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hua \h{\c&H00008AFF&}haadsa \h{\c&H004AE2FF&\fscx112\fscy112}bataaya{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:46.03,0:00:46.24,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Koi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}tantrik \h{\c&H00FFFFFF&}ya \h{\c&H00008AFF&}baba
+Dialogue: 1,0:00:46.24,0:00:46.62,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Koi \h{\c&H00008AFF&\fscx112\fscy112}tantrik{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ya \h{\c&H00008AFF&}baba
+Dialogue: 1,0:00:46.62,0:00:46.79,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Koi \h{\c&H00008AFF&}tantrik \h{\c&H004AE2FF&\fscx112\fscy112}ya{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}baba
+Dialogue: 1,0:00:46.79,0:00:47.08,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Koi \h{\c&H00008AFF&}tantrik \h{\c&H00FFFFFF&}ya \h{\c&H00008AFF&\fscx112\fscy112}baba{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:47.08,0:00:47.38,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}nahin{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}mila
+Dialogue: 1,0:00:47.38,0:00:48.23,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}nahin \h{\c&H004AE2FF&\fscx112\fscy112}mila{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:48.32,0:00:48.57,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Lekin{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kuch \h{\c&H00008AFF&}sawaal \h{\c&H00FFFFFF&}aaj
+Dialogue: 1,0:00:48.57,0:00:48.78,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Lekin \h{\c&H004AE2FF&\fscx112\fscy112}kuch{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}sawaal \h{\c&H00FFFFFF&}aaj
+Dialogue: 1,0:00:48.78,0:00:49.08,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Lekin \h{\c&H00FFFFFF&}kuch \h{\c&H00008AFF&\fscx112\fscy112}sawaal{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aaj
+Dialogue: 1,0:00:49.08,0:00:49.24,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Lekin \h{\c&H00FFFFFF&}kuch \h{\c&H00008AFF&}sawaal \h{\c&H004AE2FF&\fscx112\fscy112}aaj{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:49.24,0:00:49.45,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}bhi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}wahin \h{\c&H00FFFFFF&}latke \h{\c&H00FFFFFF&}hain
+Dialogue: 1,0:00:49.45,0:00:49.75,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}bhi \h{\c&H004AE2FF&\fscx112\fscy112}wahin{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}latke \h{\c&H00FFFFFF&}hain
+Dialogue: 1,0:00:49.75,0:00:50.09,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}bhi \h{\c&H00FFFFFF&}wahin \h{\c&H004AE2FF&\fscx112\fscy112}latke{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hain
+Dialogue: 1,0:00:50.09,0:00:50.90,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}bhi \h{\c&H00FFFFFF&}wahin \h{\c&H00FFFFFF&}latke \h{\c&H004AE2FF&\fscx112\fscy112}hain{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:50.99,0:00:51.13,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Jo{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}marne \h{\c&H00FFFFFF&}se
+Dialogue: 1,0:00:51.13,0:00:51.58,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Jo \h{\c&H004AE2FF&\fscx112\fscy112}parivaar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}marne \h{\c&H00FFFFFF&}se
+Dialogue: 1,0:00:51.58,0:00:51.92,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Jo \h{\c&H00FFFFFF&}parivaar \h{\c&H004AE2FF&\fscx112\fscy112}marne{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}se
+Dialogue: 1,0:00:51.92,0:00:52.07,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Jo \h{\c&H00FFFFFF&}parivaar \h{\c&H00FFFFFF&}marne \h{\c&H004AE2FF&\fscx112\fscy112}se{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:52.07,0:00:52.27,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H00008AFF&\fscx112\fscy112}das{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}din \h{\c&H00FFFFFF&}pehle \h{\c&H00FFFFFF&}ek
+Dialogue: 1,0:00:52.27,0:00:52.46,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}das \h{\c&H004AE2FF&\fscx112\fscy112}din{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}pehle \h{\c&H00FFFFFF&}ek
+Dialogue: 1,0:00:52.46,0:00:52.81,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}das \h{\c&H00FFFFFF&}din \h{\c&H004AE2FF&\fscx112\fscy112}pehle{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ek
+Dialogue: 1,0:00:52.81,0:00:52.96,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}das \h{\c&H00FFFFFF&}din \h{\c&H00FFFFFF&}pehle \h{\c&H004AE2FF&\fscx112\fscy112}ek{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:52.96,0:00:53.50,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}shaandaar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}sagaai \h{\c&H00FFFFFF&}mana
+Dialogue: 1,0:00:53.50,0:00:53.89,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}shaandaar \h{\c&H00008AFF&\fscx112\fscy112}sagaai{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}mana
+Dialogue: 1,0:00:53.89,0:00:54.19,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}shaandaar \h{\c&H00008AFF&}sagaai \h{\c&H004AE2FF&\fscx112\fscy112}mana{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:54.19,0:00:54.48,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}raha{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}tha
+Dialogue: 1,0:00:54.48,0:00:55.33,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}raha \h{\c&H004AE2FF&\fscx112\fscy112}tha{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:55.43,0:00:55.56,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}woh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}itna \h{\c&H00FFFFFF&}bada \h{\c&H00FFFFFF&}faisla
+Dialogue: 1,0:00:55.56,0:00:55.87,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}woh \h{\c&H004AE2FF&\fscx112\fscy112}itna{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}bada \h{\c&H00FFFFFF&}faisla
+Dialogue: 1,0:00:55.87,0:00:56.18,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}woh \h{\c&H00FFFFFF&}itna \h{\c&H004AE2FF&\fscx112\fscy112}bada{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}faisla
+Dialogue: 1,0:00:56.18,0:00:56.58,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}woh \h{\c&H00FFFFFF&}itna \h{\c&H00FFFFFF&}bada \h{\c&H004AE2FF&\fscx112\fscy112}faisla{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:56.58,0:00:56.84,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}kaise{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}le \h{\c&H00FFFFFF&}sakta \h{\c&H00FFFFFF&}tha?
+Dialogue: 1,0:00:56.84,0:00:56.98,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}kaise \h{\c&H004AE2FF&\fscx112\fscy112}le{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}sakta \h{\c&H00FFFFFF&}tha?
+Dialogue: 1,0:00:56.98,0:00:57.33,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}kaise \h{\c&H00FFFFFF&}le \h{\c&H004AE2FF&\fscx112\fscy112}sakta{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}tha?
+Dialogue: 1,0:00:57.33,0:00:58.15,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}kaise \h{\c&H00FFFFFF&}le \h{\c&H00FFFFFF&}sakta \h{\c&H004AE2FF&\fscx112\fscy112}tha?{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:58.42,0:00:58.61,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Aur{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kuch \h{\c&H00FFFFFF&}rishtedaar \h{\c&H00FFFFFF&}aaj
+Dialogue: 1,0:00:58.61,0:00:58.84,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aur \h{\c&H004AE2FF&\fscx112\fscy112}kuch{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}rishtedaar \h{\c&H00FFFFFF&}aaj
+Dialogue: 1,0:00:58.84,0:00:59.36,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aur \h{\c&H00FFFFFF&}kuch \h{\c&H004AE2FF&\fscx112\fscy112}rishtedaar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aaj
+Dialogue: 1,0:00:59.36,0:00:59.55,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aur \h{\c&H00FFFFFF&}kuch \h{\c&H00FFFFFF&}rishtedaar \h{\c&H004AE2FF&\fscx112\fscy112}aaj{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:00:59.55,0:00:59.79,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}bhi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kehte \h{\c&H00FFFFFF&}hain
+Dialogue: 1,0:00:59.79,0:01:00.12,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}bhi \h{\c&H004AE2FF&\fscx112\fscy112}kehte{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hain
+Dialogue: 1,0:01:00.12,0:01:00.95,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}bhi \h{\c&H00FFFFFF&}kehte \h{\c&H004AE2FF&\fscx112\fscy112}hain{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:00.95,0:01:01.09,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}yeh \h{\c&H00008AFF&}qatl \h{\c&H00FFFFFF&}tha
+Dialogue: 1,0:01:01.09,0:01:01.22,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H004AE2FF&\fscx112\fscy112}yeh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}qatl \h{\c&H00FFFFFF&}tha
+Dialogue: 1,0:01:01.22,0:01:01.49,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}yeh \h{\c&H00008AFF&\fscx112\fscy112}qatl{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}tha
+Dialogue: 1,0:01:01.49,0:01:02.11,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}yeh \h{\c&H00008AFF&}qatl \h{\c&H004AE2FF&\fscx112\fscy112}tha{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:02.11,0:01:02.44,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Sabse{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}daraavni \h{\c&H00FFFFFF&}baat \h{\c&H00FFFFFF&}yeh
+Dialogue: 1,0:01:02.44,0:01:03.02,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Sabse \h{\c&H004AE2FF&\fscx112\fscy112}daraavni{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}baat \h{\c&H00FFFFFF&}yeh
+Dialogue: 1,0:01:03.02,0:01:03.26,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Sabse \h{\c&H00FFFFFF&}daraavni \h{\c&H004AE2FF&\fscx112\fscy112}baat{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}yeh
+Dialogue: 1,0:01:03.26,0:01:03.41,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Sabse \h{\c&H00FFFFFF&}daraavni \h{\c&H00FFFFFF&}baat \h{\c&H004AE2FF&\fscx112\fscy112}yeh{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:03.41,0:01:03.74,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}nahin{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ki \h{\c&H00008AFF&}gyaarah \h{\c&H00FFFFFF&}log
+Dialogue: 1,0:01:03.74,0:01:03.89,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}nahin \h{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}gyaarah \h{\c&H00FFFFFF&}log
+Dialogue: 1,0:01:03.89,0:01:04.27,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}nahin \h{\c&H00FFFFFF&}ki \h{\c&H00008AFF&\fscx112\fscy112}gyaarah{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}log
+Dialogue: 1,0:01:04.27,0:01:04.46,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}nahin \h{\c&H00FFFFFF&}ki \h{\c&H00008AFF&}gyaarah \h{\c&H004AE2FF&\fscx112\fscy112}log{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:04.46,0:01:04.66,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}mar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}gaye
+Dialogue: 1,0:01:04.66,0:01:05.45,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}mar \h{\c&H004AE2FF&\fscx112\fscy112}gaye{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:05.62,0:01:05.95,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Sabse{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}daraavni \h{\c&H00FFFFFF&}baat \h{\c&H00FFFFFF&}yeh
+Dialogue: 1,0:01:05.95,0:01:06.52,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Sabse \h{\c&H004AE2FF&\fscx112\fscy112}daraavni{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}baat \h{\c&H00FFFFFF&}yeh
+Dialogue: 1,0:01:06.52,0:01:06.75,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Sabse \h{\c&H00FFFFFF&}daraavni \h{\c&H004AE2FF&\fscx112\fscy112}baat{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}yeh
+Dialogue: 1,0:01:06.75,0:01:06.89,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Sabse \h{\c&H00FFFFFF&}daraavni \h{\c&H00FFFFFF&}baat \h{\c&H004AE2FF&\fscx112\fscy112}yeh{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:06.89,0:01:07.08,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}hai{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}woh \h{\c&H00FFFFFF&}apne
+Dialogue: 1,0:01:07.08,0:01:07.22,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hai \h{\c&H004AE2FF&\fscx112\fscy112}ki{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}woh \h{\c&H00FFFFFF&}apne
+Dialogue: 1,0:01:07.22,0:01:07.37,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hai \h{\c&H00FFFFFF&}ki \h{\c&H004AE2FF&\fscx112\fscy112}woh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}apne
+Dialogue: 1,0:01:07.37,0:01:07.65,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hai \h{\c&H00FFFFFF&}ki \h{\c&H00FFFFFF&}woh \h{\c&H004AE2FF&\fscx112\fscy112}apne{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:07.65,0:01:07.84,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}hi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ghar \h{\c&H00FFFFFF&}mein
+Dialogue: 1,0:01:07.84,0:01:08.08,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hi \h{\c&H004AE2FF&\fscx112\fscy112}ghar{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}mein
+Dialogue: 1,0:01:08.08,0:01:08.72,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}hi \h{\c&H00FFFFFF&}ghar \h{\c&H004AE2FF&\fscx112\fscy112}mein{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:08.72,0:01:09.08,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}apnon{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}beech
+Dialogue: 1,0:01:09.08,0:01:09.23,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}apnon \h{\c&H004AE2FF&\fscx112\fscy112}ke{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}beech
+Dialogue: 1,0:01:09.23,0:01:09.94,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}apnon \h{\c&H00FFFFFF&}ke \h{\c&H004AE2FF&\fscx112\fscy112}beech{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:09.94,0:01:10.10,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ek{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aise \h{\c&H00008AFF&}yaqeen \h{\c&H00FFFFFF&}ke
+Dialogue: 1,0:01:10.10,0:01:10.38,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ek \h{\c&H004AE2FF&\fscx112\fscy112}aise{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}yaqeen \h{\c&H00FFFFFF&}ke
+Dialogue: 1,0:01:10.38,0:01:10.77,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ek \h{\c&H00FFFFFF&}aise \h{\c&H00008AFF&\fscx112\fscy112}yaqeen{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ke
+Dialogue: 1,0:01:10.77,0:01:10.94,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ek \h{\c&H00FFFFFF&}aise \h{\c&H00008AFF&}yaqeen \h{\c&H004AE2FF&\fscx112\fscy112}ke{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:10.94,0:01:11.28,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}saath{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}jee \h{\c&H00FFFFFF&}rahe \h{\c&H00FFFFFF&}the
+Dialogue: 1,0:01:11.28,0:01:11.50,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}saath \h{\c&H004AE2FF&\fscx112\fscy112}jee{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}rahe \h{\c&H00FFFFFF&}the
+Dialogue: 1,0:01:11.50,0:01:11.78,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}saath \h{\c&H00FFFFFF&}jee \h{\c&H004AE2FF&\fscx112\fscy112}rahe{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}the
+Dialogue: 1,0:01:11.78,0:01:12.60,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}saath \h{\c&H00FFFFFF&}jee \h{\c&H00FFFFFF&}rahe \h{\c&H004AE2FF&\fscx112\fscy112}the{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:12.79,0:01:13.02,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}jise{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kisi \h{\c&H00FFFFFF&}ne \h{\c&H00FFFFFF&}kabhi
+Dialogue: 1,0:01:13.02,0:01:13.29,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jise \h{\c&H004AE2FF&\fscx112\fscy112}kisi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ne \h{\c&H00FFFFFF&}kabhi
+Dialogue: 1,0:01:13.29,0:01:13.42,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jise \h{\c&H00FFFFFF&}kisi \h{\c&H004AE2FF&\fscx112\fscy112}ne{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kabhi
+Dialogue: 1,0:01:13.42,0:01:13.74,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}jise \h{\c&H00FFFFFF&}kisi \h{\c&H00FFFFFF&}ne \h{\c&H004AE2FF&\fscx112\fscy112}kabhi{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:13.74,0:01:14.05,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H00008AFF&\fscx112\fscy112}sawaal{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}nahin \h{\c&H00FFFFFF&}kiya
+Dialogue: 1,0:01:14.05,0:01:14.37,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}sawaal \h{\c&H004AE2FF&\fscx112\fscy112}nahin{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kiya
+Dialogue: 1,0:01:14.37,0:01:15.24,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00008AFF&}sawaal \h{\c&H00FFFFFF&}nahin \h{\c&H004AE2FF&\fscx112\fscy112}kiya{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:15.43,0:01:15.71,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Aapko{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kya \h{\c&H00FFFFFF&}lagta \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:01:15.71,0:01:15.91,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aapko \h{\c&H004AE2FF&\fscx112\fscy112}kya{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}lagta \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:01:15.91,0:01:16.24,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aapko \h{\c&H00FFFFFF&}kya \h{\c&H004AE2FF&\fscx112\fscy112}lagta{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}hai
+Dialogue: 1,0:01:16.24,0:01:17.00,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aapko \h{\c&H00FFFFFF&}kya \h{\c&H00FFFFFF&}lagta \h{\c&H004AE2FF&\fscx112\fscy112}hai{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:17.12,0:01:17.26,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}yeh{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}shared \h{\c&H00008AFF&}psychosis \h{\c&H00FFFFFF&}tha
+Dialogue: 1,0:01:17.26,0:01:17.73,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}yeh \h{\c&H00008AFF&\fscx112\fscy112}shared{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00008AFF&}psychosis \h{\c&H00FFFFFF&}tha
+Dialogue: 1,0:01:17.73,0:01:18.19,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}yeh \h{\c&H00008AFF&}shared \h{\c&H00008AFF&\fscx112\fscy112}psychosis{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}tha
+Dialogue: 1,0:01:18.19,0:01:18.80,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}yeh \h{\c&H00008AFF&}shared \h{\c&H00008AFF&}psychosis \h{\c&H004AE2FF&\fscx112\fscy112}tha{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:18.80,0:01:18.99,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ya{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kuch \h{\c&H00FFFFFF&}aur?
+Dialogue: 1,0:01:18.99,0:01:19.23,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ya \h{\c&H004AE2FF&\fscx112\fscy112}kuch{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aur?
+Dialogue: 1,0:01:19.23,0:01:20.01,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ya \h{\c&H00FFFFFF&}kuch \h{\c&H004AE2FF&\fscx112\fscy112}aur?{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:20.01,0:01:20.35,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Comment{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}mein \h{\c&H00FFFFFF&}bataaiye
+Dialogue: 1,0:01:20.35,0:01:20.53,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Comment \h{\c&H004AE2FF&\fscx112\fscy112}mein{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}bataaiye
+Dialogue: 1,0:01:20.53,0:01:21.47,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Comment \h{\c&H00FFFFFF&}mein \h{\c&H004AE2FF&\fscx112\fscy112}bataaiye{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:21.56,0:01:21.75,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}Aur{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}aisi \h{\c&H00FFFFFF&}ansuljhi \h{\c&H00FFFFFF&}kahaaniyon
+Dialogue: 1,0:01:21.75,0:01:22.03,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aur \h{\c&H004AE2FF&\fscx112\fscy112}aisi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}ansuljhi \h{\c&H00FFFFFF&}kahaaniyon
+Dialogue: 1,0:01:22.03,0:01:22.59,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aur \h{\c&H00FFFFFF&}aisi \h{\c&H004AE2FF&\fscx112\fscy112}ansuljhi{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}kahaaniyon
+Dialogue: 1,0:01:22.59,0:01:23.11,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}Aur \h{\c&H00FFFFFF&}aisi \h{\c&H00FFFFFF&}ansuljhi \h{\c&H004AE2FF&\fscx112\fscy112}kahaaniyon{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 1,0:01:23.11,0:01:23.26,Cap,,0,0,0,,{\pos(540,1370)\fad(80,0)}{\c&H004AE2FF&\fscx112\fscy112}ke{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}liye \h{\c&H00FFFFFF&}follow \h{\c&H00FFFFFF&}karein
+Dialogue: 1,0:01:23.26,0:01:23.44,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ke \h{\c&H004AE2FF&\fscx112\fscy112}liye{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}follow \h{\c&H00FFFFFF&}karein
+Dialogue: 1,0:01:23.44,0:01:23.68,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}liye \h{\c&H004AE2FF&\fscx112\fscy112}follow{\fscx100\fscy100\c&H00FFFFFF&} \h{\c&H00FFFFFF&}karein
+Dialogue: 1,0:01:23.68,0:01:24.38,Cap,,0,0,0,,{\pos(540,1370)}{\c&H00FFFFFF&}ke \h{\c&H00FFFFFF&}liye \h{\c&H00FFFFFF&}follow \h{\c&H004AE2FF&\fscx112\fscy112}karein{\fscx100\fscy100\c&H00FFFFFF&}
+Dialogue: 2,0:00:05.48,0:00:06.77,Lab,,0,0,0,,{\an8\pos(540,290)\fs84\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}FATHER DIES
+Dialogue: 2,0:00:09.08,0:00:18.88,Lab,,0,0,0,,{\an8\pos(540,290)\fs92\c&H00008AFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}"FATHER'S SPIRIT"
+Dialogue: 2,0:00:13.03,0:00:18.88,Lab,,0,0,0,,{\an8\pos(540,406)\fs90\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}ORDERS
+Dialogue: 2,0:00:16.96,0:00:18.88,Lab,,0,0,0,,{\an8\pos(540,520)\fs62\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}WHOLE FAMILY OBEYED
+Dialogue: 2,0:00:18.90,0:00:23.33,Lab,,0,0,0,,{\an8\pos(540,290)\fs84\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}BUSINESS GREW
+Dialogue: 2,0:00:21.42,0:00:23.33,Lab,,0,0,0,,{\an8\pos(540,397)\fs84\c&H00008AFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}BELIEF DEEPENED
+Dialogue: 2,0:00:24.00,0:00:30.25,Lab,,0,0,0,,{\an8\pos(540,290)\fs80\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}FINAL ORDER
+Dialogue: 2,0:00:25.10,0:00:30.25,Lab,,0,0,0,,{\an8\pos(540,392)\fs100\c&H00008AFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}BARGAD TAPASYA
+Dialogue: 2,0:00:27.64,0:00:30.25,Lab,,0,0,0,,{\an8\pos(540,518)\fs66\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}LIKE BANYAN ROOTS
+Dialogue: 2,0:00:31.10,0:00:48.30,Lab,,0,0,0,,{\an8\pos(540,290)\fs46\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}CBI-CFSL PSYCHOLOGICAL AUTOPSY
+Dialogue: 2,0:00:33.64,0:00:48.30,Lab,,0,0,0,,{\an8\pos(540,352)\fs96\c&H00303BFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}SHARED PSYCHOSIS
+Dialogue: 2,0:00:42.20,0:00:48.30,Lab,,0,0,0,,{\an8\pos(540,473)\fs70\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}NOT SUICIDE
+Dialogue: 2,0:00:44.28,0:00:48.30,Lab,,0,0,0,,{\an8\pos(540,563)\fs70\c&H00008AFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}ACCIDENT DURING RITUAL
+Dialogue: 2,0:00:46.24,0:00:48.30,Lab,,0,0,0,,{\an8\pos(540,653)\fs64\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}NO TANTRIK FOUND
+Dialogue: 2,0:00:48.78,0:01:02.09,Lab,,0,0,0,,{\an8\pos(540,290)\fs90\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}UNANSWERED
+Dialogue: 2,0:00:53.50,0:01:02.09,Lab,,0,0,0,,{\an8\pos(540,404)\fs70\c&H00008AFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}ENGAGED 17 JUNE 2018
+Dialogue: 2,0:01:01.22,0:01:02.09,Lab,,0,0,0,,{\an8\pos(540,494)\fs120\c&H00303BFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}MURDER?
+Dialogue: 2,0:01:03.89,0:01:15.41,Lab,,0,0,0,,{\an8\pos(540,290)\fs200\c&H00008AFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}11
+Dialogue: 2,0:01:13.74,0:01:15.41,Lab,,0,0,0,,{\an8\pos(540,534)\fs90\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}NEVER QUESTIONED
+Dialogue: 2,0:01:20.01,0:01:24.36,Lab,,0,0,0,,{\an8\pos(540,290)\fs66\c&H00008AFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}COMMENT ↓
+Dialogue: 2,0:01:23.44,0:01:24.36,Lab,,0,0,0,,{\an8\pos(540,375)\fs60\c&H00FFFFFF&\fscx10\fscy10\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)\fad(0,120)}FOLLOW +

@@ -1,0 +1,1268 @@
+[
+{
+"word": "ये",
+"roman": "ye",
+"start": 0.0,
+"end": 0.174
+},
+{
+"word": "सब",
+"roman": "sab",
+"start": 0.174,
+"end": 0.406
+},
+{
+"word": "शुरू",
+"roman": "shuruu",
+"start": 0.406,
+"end": 0.811
+},
+{
+"word": "हुआ",
+"roman": "huaa",
+"start": 0.811,
+"end": 1.101
+},
+{
+"word": "दो",
+"roman": "do",
+"start": 1.101,
+"end": 1.275
+},
+{
+"word": "हज़ार",
+"roman": "hazaar",
+"start": 1.275,
+"end": 1.681
+},
+{
+"word": "सात",
+"roman": "saat",
+"start": 1.681,
+"end": 1.971
+},
+{
+"word": "में",
+"roman": "mem",
+"start": 1.971,
+"end": 2.203
+},
+{
+"word": "जब",
+"roman": "jab",
+"start": 2.801,
+"end": 3.017
+},
+{
+"word": "परिवार",
+"roman": "parivaar",
+"start": 3.017,
+"end": 3.504
+},
+{
+"word": "के",
+"roman": "ke",
+"start": 3.504,
+"end": 3.666
+},
+{
+"word": "मुखिया",
+"roman": "mukhiyaa",
+"start": 3.666,
+"end": 4.153
+},
+{
+"word": "ललित",
+"roman": "lalit",
+"start": 4.596,
+"end": 4.948
+},
+{
+"word": "के",
+"roman": "ke",
+"start": 4.948,
+"end": 5.125
+},
+{
+"word": "पिता",
+"roman": "pitaa",
+"start": 5.125,
+"end": 5.477
+},
+{
+"word": "गुज़र",
+"roman": "guzar",
+"start": 5.477,
+"end": 5.83
+},
+{
+"word": "गए",
+"roman": "gae",
+"start": 5.83,
+"end": 6.065
+},
+{
+"word": "उसके",
+"roman": "usake",
+"start": 6.792,
+"end": 7.09
+},
+{
+"word": "बाद",
+"roman": "baad",
+"start": 7.09,
+"end": 7.338
+},
+{
+"word": "ललित",
+"roman": "lalit",
+"start": 7.338,
+"end": 7.636
+},
+{
+"word": "ने",
+"roman": "ne",
+"start": 7.636,
+"end": 7.785
+},
+{
+"word": "दावा",
+"roman": "daavaa",
+"start": 7.785,
+"end": 8.133
+},
+{
+"word": "किया",
+"roman": "kiyaa",
+"start": 8.133,
+"end": 8.43
+},
+{
+"word": "कि",
+"roman": "ki",
+"start": 8.43,
+"end": 8.579
+},
+{
+"word": "पिता",
+"roman": "pitaa",
+"start": 8.579,
+"end": 8.877
+},
+{
+"word": "की",
+"roman": "kii",
+"start": 8.877,
+"end": 9.076
+},
+{
+"word": "आत्मा",
+"roman": "aatmaa",
+"start": 9.076,
+"end": 9.424
+},
+{
+"word": "उसमें",
+"roman": "usamem",
+"start": 9.424,
+"end": 9.771
+},
+{
+"word": "आती",
+"roman": "aatii",
+"start": 9.771,
+"end": 10.069
+},
+{
+"word": "है",
+"roman": "hai",
+"start": 10.069,
+"end": 10.268
+},
+{
+"word": "और",
+"roman": "aur",
+"start": 10.268,
+"end": 10.466
+},
+{
+"word": "उससे",
+"roman": "usase",
+"start": 10.885,
+"end": 11.199
+},
+{
+"word": "बात",
+"roman": "baat",
+"start": 11.199,
+"end": 11.461
+},
+{
+"word": "करती",
+"roman": "karatii",
+"start": 11.461,
+"end": 11.88
+},
+{
+"word": "है",
+"roman": "hai",
+"start": 11.88,
+"end": 12.089
+},
+{
+"word": "वही",
+"roman": "vahii",
+"start": 12.732,
+"end": 13.034
+},
+{
+"word": "आदेश",
+"roman": "aadesh",
+"start": 13.034,
+"end": 13.387
+},
+{
+"word": "देती",
+"roman": "detii",
+"start": 13.387,
+"end": 13.689
+},
+{
+"word": "है",
+"roman": "hai",
+"start": 13.689,
+"end": 13.891
+},
+{
+"word": "और",
+"roman": "aur",
+"start": 14.497,
+"end": 14.719
+},
+{
+"word": "धीरे-धीरे",
+"roman": "dhiire-dhiire",
+"start": 14.719,
+"end": 15.44
+},
+{
+"word": "पूरा",
+"roman": "puuraa",
+"start": 15.914,
+"end": 16.298
+},
+{
+"word": "परिवार",
+"roman": "parivaar",
+"start": 16.298,
+"end": 16.792
+},
+{
+"word": "वो",
+"roman": "vo",
+"start": 16.792,
+"end": 16.957
+},
+{
+"word": "आदेश",
+"roman": "aadesh",
+"start": 16.957,
+"end": 17.341
+},
+{
+"word": "मानने",
+"roman": "maanane",
+"start": 17.341,
+"end": 17.781
+},
+{
+"word": "लगा",
+"roman": "lagaa",
+"start": 17.781,
+"end": 18.11
+},
+{
+"word": "दुकान",
+"roman": "dukaan",
+"start": 18.901,
+"end": 19.268
+},
+{
+"word": "चली",
+"roman": "calii",
+"start": 19.268,
+"end": 19.583
+},
+{
+"word": "पैसा",
+"roman": "paisaa",
+"start": 20.015,
+"end": 20.372
+},
+{
+"word": "आया",
+"roman": "aayaa",
+"start": 20.372,
+"end": 20.678
+},
+{
+"word": "यक़ीन",
+"roman": "yaqiin",
+"start": 21.421,
+"end": 21.79
+},
+{
+"word": "और",
+"roman": "aur",
+"start": 21.79,
+"end": 22.001
+},
+{
+"word": "गहरा",
+"roman": "gaharaa",
+"start": 22.001,
+"end": 22.423
+},
+{
+"word": "हुआ",
+"roman": "huaa",
+"start": 22.423,
+"end": 22.687
+},
+{
+"word": "फिर",
+"roman": "phir",
+"start": 23.352,
+"end": 23.583
+},
+{
+"word": "आख़िरी",
+"roman": "aakhirii",
+"start": 23.583,
+"end": 23.998
+},
+{
+"word": "आदेश",
+"roman": "aadesh",
+"start": 23.998,
+"end": 24.321
+},
+{
+"word": "आया",
+"roman": "aayaa",
+"start": 24.321,
+"end": 24.598
+},
+{
+"word": "बरगद",
+"roman": "baragad",
+"start": 25.096,
+"end": 25.535
+},
+{
+"word": "की",
+"roman": "kii",
+"start": 25.535,
+"end": 25.754
+},
+{
+"word": "तपस्या",
+"roman": "tapasyaa",
+"start": 25.754,
+"end": 26.247
+},
+{
+"word": "बरगद",
+"roman": "baragad",
+"start": 26.981,
+"end": 27.417
+},
+{
+"word": "की",
+"roman": "kii",
+"start": 27.417,
+"end": 27.635
+},
+{
+"word": "जटाओं",
+"roman": "jattaaom",
+"start": 27.635,
+"end": 28.126
+},
+{
+"word": "की",
+"roman": "kii",
+"start": 28.126,
+"end": 28.344
+},
+{
+"word": "तरह",
+"roman": "tarah",
+"start": 28.344,
+"end": 28.671
+},
+{
+"word": "लटकना",
+"roman": "lattakanaa",
+"start": 29.14,
+"end": 29.862
+},
+{
+"word": "दिल्ली",
+"roman": "dillii",
+"start": 30.269,
+"end": 30.612
+},
+{
+"word": "पुलिस",
+"roman": "pulis",
+"start": 30.612,
+"end": 30.906
+},
+{
+"word": "और",
+"roman": "aur",
+"start": 30.906,
+"end": 31.102
+},
+{
+"word": "CBI",
+"roman": "CBI",
+"start": 31.102,
+"end": 31.592
+},
+{
+"word": "की",
+"roman": "kii",
+"start": 31.592,
+"end": 31.788
+},
+{
+"word": "साइकोलॉजिकल",
+"roman": "saaikolojikal",
+"start": 31.788,
+"end": 32.473
+},
+{
+"word": "ऑटोप्सी",
+"roman": "ottopsii",
+"start": 32.473,
+"end": 32.914
+},
+{
+"word": "ने",
+"roman": "ne",
+"start": 33.297,
+"end": 33.444
+},
+{
+"word": "इसे",
+"roman": "ise",
+"start": 33.444,
+"end": 33.64
+},
+{
+"word": "शेयर्ड",
+"roman": "sheyardda",
+"start": 33.64,
+"end": 34.13
+},
+{
+"word": "साइकोसिस",
+"roman": "saaikosis",
+"start": 34.13,
+"end": 34.62
+},
+{
+"word": "कहा",
+"roman": "kahaa",
+"start": 34.62,
+"end": 34.914
+},
+{
+"word": "जब",
+"roman": "jab",
+"start": 35.828,
+"end": 36.088
+},
+{
+"word": "एक",
+"roman": "ek",
+"start": 36.088,
+"end": 36.282
+},
+{
+"word": "इंसान",
+"roman": "imsaan",
+"start": 36.282,
+"end": 36.736
+},
+{
+"word": "का",
+"roman": "kaa",
+"start": 36.736,
+"end": 36.995
+},
+{
+"word": "भ्रम",
+"roman": "bhram",
+"start": 36.995,
+"end": 37.385
+},
+{
+"word": "पूरे",
+"roman": "puure",
+"start": 37.972,
+"end": 38.277
+},
+{
+"word": "परिवार",
+"roman": "parivaar",
+"start": 38.277,
+"end": 38.735
+},
+{
+"word": "का",
+"roman": "kaa",
+"start": 38.735,
+"end": 38.938
+},
+{
+"word": "सच",
+"roman": "sac",
+"start": 38.938,
+"end": 39.141
+},
+{
+"word": "बन",
+"roman": "ban",
+"start": 39.141,
+"end": 39.345
+},
+{
+"word": "जाता",
+"roman": "jaataa",
+"start": 39.345,
+"end": 39.701
+},
+{
+"word": "है",
+"roman": "hai",
+"start": 39.701,
+"end": 39.904
+},
+{
+"word": "CBI",
+"roman": "CBI",
+"start": 40.643,
+"end": 41.18
+},
+{
+"word": "ने",
+"roman": "ne",
+"start": 41.18,
+"end": 41.34
+},
+{
+"word": "इसे",
+"roman": "ise",
+"start": 41.34,
+"end": 41.555
+},
+{
+"word": "आत्महत्या",
+"roman": "aatmahatyaa",
+"start": 41.555,
+"end": 42.199
+},
+{
+"word": "नहीं",
+"roman": "nahiim",
+"start": 42.199,
+"end": 42.574
+},
+{
+"word": "एक",
+"roman": "ek",
+"start": 43.006,
+"end": 43.153
+},
+{
+"word": "रिचुअल",
+"roman": "ricual",
+"start": 43.153,
+"end": 43.496
+},
+{
+"word": "के",
+"roman": "ke",
+"start": 43.496,
+"end": 43.643
+},
+{
+"word": "दौरान",
+"roman": "dauraan",
+"start": 43.643,
+"end": 44.035
+},
+{
+"word": "हुआ",
+"roman": "huaa",
+"start": 44.035,
+"end": 44.28
+},
+{
+"word": "हादसा",
+"roman": "haadasaa",
+"start": 44.28,
+"end": 44.72
+},
+{
+"word": "बताया",
+"roman": "bataayaa",
+"start": 44.72,
+"end": 45.161
+},
+{
+"word": "कोई",
+"roman": "koii",
+"start": 46.034,
+"end": 46.244
+},
+{
+"word": "तांत्रिक",
+"roman": "taamtrik",
+"start": 46.244,
+"end": 46.621
+},
+{
+"word": "या",
+"roman": "yaa",
+"start": 46.621,
+"end": 46.789
+},
+{
+"word": "बाबा",
+"roman": "baabaa",
+"start": 46.789,
+"end": 47.083
+},
+{
+"word": "नहीं",
+"roman": "nahiim",
+"start": 47.083,
+"end": 47.376
+},
+{
+"word": "मिला",
+"roman": "milaa",
+"start": 47.376,
+"end": 47.628
+},
+{
+"word": "लेकिन",
+"roman": "lekin",
+"start": 48.316,
+"end": 48.569
+},
+{
+"word": "कुछ",
+"roman": "kuch",
+"start": 48.569,
+"end": 48.78
+},
+{
+"word": "सवाल",
+"roman": "savaal",
+"start": 48.78,
+"end": 49.075
+},
+{
+"word": "आज",
+"roman": "aaj",
+"start": 49.075,
+"end": 49.244
+},
+{
+"word": "भी",
+"roman": "bhii",
+"start": 49.244,
+"end": 49.455
+},
+{
+"word": "वहीं",
+"roman": "vahiim",
+"start": 49.455,
+"end": 49.75
+},
+{
+"word": "लटके",
+"roman": "lattake",
+"start": 49.75,
+"end": 50.088
+},
+{
+"word": "हैं",
+"roman": "haim",
+"start": 50.088,
+"end": 50.299
+},
+{
+"word": "जो",
+"roman": "jo",
+"start": 50.987,
+"end": 51.134
+},
+{
+"word": "परिवार",
+"roman": "parivaar",
+"start": 51.134,
+"end": 51.578
+},
+{
+"word": "मरने",
+"roman": "marane",
+"start": 51.578,
+"end": 51.923
+},
+{
+"word": "से",
+"roman": "se",
+"start": 51.923,
+"end": 52.07
+},
+{
+"word": "दस",
+"roman": "das",
+"start": 52.07,
+"end": 52.267
+},
+{
+"word": "दिन",
+"roman": "din",
+"start": 52.267,
+"end": 52.464
+},
+{
+"word": "पहले",
+"roman": "pahale",
+"start": 52.464,
+"end": 52.809
+},
+{
+"word": "एक",
+"roman": "ek",
+"start": 52.809,
+"end": 52.957
+},
+{
+"word": "शानदार",
+"roman": "shaanadaar",
+"start": 52.957,
+"end": 53.499
+},
+{
+"word": "सगाई",
+"roman": "sagaaii",
+"start": 53.499,
+"end": 53.893
+},
+{
+"word": "मना",
+"roman": "manaa",
+"start": 53.893,
+"end": 54.188
+},
+{
+"word": "रहा",
+"roman": "rahaa",
+"start": 54.188,
+"end": 54.484
+},
+{
+"word": "था",
+"roman": "thaa",
+"start": 54.484,
+"end": 54.73
+},
+{
+"word": "वो",
+"roman": "vo",
+"start": 55.428,
+"end": 55.561
+},
+{
+"word": "इतना",
+"roman": "itanaa",
+"start": 55.561,
+"end": 55.87
+},
+{
+"word": "बड़ा",
+"roman": "baddaa",
+"start": 55.87,
+"end": 56.18
+},
+{
+"word": "फ़ैसला",
+"roman": "faisalaa",
+"start": 56.18,
+"end": 56.578
+},
+{
+"word": "कैसे",
+"roman": "kaise",
+"start": 56.578,
+"end": 56.843
+},
+{
+"word": "ले",
+"roman": "le",
+"start": 56.843,
+"end": 56.976
+},
+{
+"word": "सकता",
+"roman": "sakataa",
+"start": 56.976,
+"end": 57.329
+},
+{
+"word": "था",
+"roman": "thaa",
+"start": 57.329,
+"end": 57.55
+},
+{
+"word": "और",
+"roman": "aur",
+"start": 58.417,
+"end": 58.606
+},
+{
+"word": "कुछ",
+"roman": "kuch",
+"start": 58.606,
+"end": 58.843
+},
+{
+"word": "रिश्तेदार",
+"roman": "rishtedaar",
+"start": 58.843,
+"end": 59.364
+},
+{
+"word": "आज",
+"roman": "aaj",
+"start": 59.364,
+"end": 59.553
+},
+{
+"word": "भी",
+"roman": "bhii",
+"start": 59.553,
+"end": 59.79
+},
+{
+"word": "कहते",
+"roman": "kahate",
+"start": 59.79,
+"end": 60.121
+},
+{
+"word": "हैं",
+"roman": "haim",
+"start": 60.121,
+"end": 60.357
+},
+{
+"word": "कि",
+"roman": "ki",
+"start": 60.952,
+"end": 61.088
+},
+{
+"word": "ये",
+"roman": "ye",
+"start": 61.088,
+"end": 61.224
+},
+{
+"word": "क़त्ल",
+"roman": "qatla",
+"start": 61.224,
+"end": 61.495
+},
+{
+"word": "था",
+"roman": "thaa",
+"start": 61.495,
+"end": 61.721
+},
+{
+"word": "सबसे",
+"roman": "sabase",
+"start": 62.108,
+"end": 62.444
+},
+{
+"word": "डरावनी",
+"roman": "ddaraavanii",
+"start": 62.444,
+"end": 63.021
+},
+{
+"word": "बात",
+"roman": "baat",
+"start": 63.021,
+"end": 63.261
+},
+{
+"word": "ये",
+"roman": "ye",
+"start": 63.261,
+"end": 63.405
+},
+{
+"word": "नहीं",
+"roman": "nahiim",
+"start": 63.405,
+"end": 63.742
+},
+{
+"word": "कि",
+"roman": "ki",
+"start": 63.742,
+"end": 63.886
+},
+{
+"word": "ग्यारह",
+"roman": "gyaarah",
+"start": 63.886,
+"end": 64.27
+},
+{
+"word": "लोग",
+"roman": "log",
+"start": 64.27,
+"end": 64.463
+},
+{
+"word": "मर",
+"roman": "mar",
+"start": 64.463,
+"end": 64.655
+},
+{
+"word": "गए",
+"roman": "gae",
+"start": 64.655,
+"end": 64.847
+},
+{
+"word": "सबसे",
+"roman": "sabase",
+"start": 65.616,
+"end": 65.947
+},
+{
+"word": "डरावनी",
+"roman": "ddaraavanii",
+"start": 65.947,
+"end": 66.515
+},
+{
+"word": "बात",
+"roman": "baat",
+"start": 66.515,
+"end": 66.752
+},
+{
+"word": "ये",
+"roman": "ye",
+"start": 66.752,
+"end": 66.894
+},
+{
+"word": "है",
+"roman": "hai",
+"start": 66.894,
+"end": 67.083
+},
+{
+"word": "कि",
+"roman": "ki",
+"start": 67.083,
+"end": 67.225
+},
+{
+"word": "वो",
+"roman": "vo",
+"start": 67.225,
+"end": 67.367
+},
+{
+"word": "अपने",
+"roman": "apane",
+"start": 67.367,
+"end": 67.651
+},
+{
+"word": "ही",
+"roman": "hii",
+"start": 67.651,
+"end": 67.84
+},
+{
+"word": "घर",
+"roman": "ghar",
+"start": 67.84,
+"end": 68.077
+},
+{
+"word": "में",
+"roman": "mem",
+"start": 68.077,
+"end": 68.266
+},
+{
+"word": "अपनों",
+"roman": "apanom",
+"start": 68.721,
+"end": 69.079
+},
+{
+"word": "के",
+"roman": "ke",
+"start": 69.079,
+"end": 69.233
+},
+{
+"word": "बीच",
+"roman": "biic",
+"start": 69.233,
+"end": 69.489
+},
+{
+"word": "एक",
+"roman": "ek",
+"start": 69.936,
+"end": 70.104
+},
+{
+"word": "ऐसे",
+"roman": "aise",
+"start": 70.104,
+"end": 70.383
+},
+{
+"word": "यक़ीन",
+"roman": "yaqiin",
+"start": 70.383,
+"end": 70.774
+},
+{
+"word": "के",
+"roman": "ke",
+"start": 70.774,
+"end": 70.942
+},
+{
+"word": "साथ",
+"roman": "saath",
+"start": 70.942,
+"end": 71.277
+},
+{
+"word": "जी",
+"roman": "jii",
+"start": 71.277,
+"end": 71.501
+},
+{
+"word": "रहे",
+"roman": "rahe",
+"start": 71.501,
+"end": 71.78
+},
+{
+"word": "थे",
+"roman": "the",
+"start": 71.78,
+"end": 72.004
+},
+{
+"word": "जिसे",
+"roman": "jise",
+"start": 72.794,
+"end": 73.019
+},
+{
+"word": "किसी",
+"roman": "kisii",
+"start": 73.019,
+"end": 73.289
+},
+{
+"word": "ने",
+"roman": "ne",
+"start": 73.289,
+"end": 73.424
+},
+{
+"word": "कभी",
+"roman": "kabhii",
+"start": 73.424,
+"end": 73.739
+},
+{
+"word": "सवाल",
+"roman": "savaal",
+"start": 73.739,
+"end": 74.054
+},
+{
+"word": "नहीं",
+"roman": "nahiim",
+"start": 74.054,
+"end": 74.369
+},
+{
+"word": "किया",
+"roman": "kiyaa",
+"start": 74.369,
+"end": 74.64
+},
+{
+"word": "आपको",
+"roman": "aapako",
+"start": 75.427,
+"end": 75.711
+},
+{
+"word": "क्या",
+"roman": "kyaa",
+"start": 75.711,
+"end": 75.914
+},
+{
+"word": "लगता",
+"roman": "lagataa",
+"start": 75.914,
+"end": 76.239
+},
+{
+"word": "है",
+"roman": "hai",
+"start": 76.239,
+"end": 76.401
+},
+{
+"word": "ये",
+"roman": "ye",
+"start": 77.119,
+"end": 77.259
+},
+{
+"word": "शेयर्ड",
+"roman": "sheyardda",
+"start": 77.259,
+"end": 77.726
+},
+{
+"word": "साइकोसिस",
+"roman": "saaikosis",
+"start": 77.726,
+"end": 78.193
+},
+{
+"word": "था",
+"roman": "thaa",
+"start": 78.193,
+"end": 78.427
+},
+{
+"word": "या",
+"roman": "yaa",
+"start": 78.8,
+"end": 78.993
+},
+{
+"word": "कुछ",
+"roman": "kuch",
+"start": 78.993,
+"end": 79.234
+},
+{
+"word": "और",
+"roman": "aur",
+"start": 79.234,
+"end": 79.426
+},
+{
+"word": "कमेंट",
+"roman": "kamemtt",
+"start": 80.007,
+"end": 80.354
+},
+{
+"word": "में",
+"roman": "mem",
+"start": 80.354,
+"end": 80.527
+},
+{
+"word": "बताइए",
+"roman": "bataaie",
+"start": 80.527,
+"end": 80.874
+},
+{
+"word": "और",
+"roman": "aur",
+"start": 81.557,
+"end": 81.746
+},
+{
+"word": "ऐसी",
+"roman": "aisii",
+"start": 81.746,
+"end": 82.029
+},
+{
+"word": "अनसुलझी",
+"roman": "anasulajhii",
+"start": 82.029,
+"end": 82.595
+},
+{
+"word": "कहानियों",
+"roman": "kahaaniyom",
+"start": 82.595,
+"end": 83.114
+},
+{
+"word": "के",
+"roman": "ke",
+"start": 83.114,
+"end": 83.256
+},
+{
+"word": "लिए",
+"roman": "lie",
+"start": 83.256,
+"end": 83.445
+},
+{
+"word": "फ़ॉलो",
+"roman": "folo",
+"start": 83.445,
+"end": 83.681
+},
+{
+"word": "करें",
+"roman": "karem",
+"start": 83.681,
+"end": 83.964
+}
+]
